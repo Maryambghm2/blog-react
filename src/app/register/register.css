@@ -1,0 +1,36 @@
+
+
+    /* REGISTER  */
+
+    
+    .register-box{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .register-box h3{
+    font-size: larger;
+    }
+  
+  /* #register-form{
+    max-width: 500px;
+  } */
+    .register{
+      display: flex;
+      flex-direction: column;
+    padding-bottom: 8px;
+    }
+    
+    .register input {
+      margin: 10px 0;
+      border-radius: 4px;
+      border: 1px solid ;
+      box-shadow: #b1aef0;
+      padding: 3px ;
+    }
+  
+  
+    #btn-submit{
+    padding-left: 0;
+    }
+  
