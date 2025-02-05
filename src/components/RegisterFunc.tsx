@@ -49,7 +49,7 @@ function RegisterForm({ onSubmit, onPasswordChange, passwordStatus }: {
 function LinkLogin() {
     return (
         <div>
-            <p>Déjà inscrit ? <a href="http://localhost:3001">Connectez-vous</a></p>
+            <p>Déjà inscrit ? <a href="http://localhost:3000">Connectez-vous</a></p>
         </div>
     );
 }
@@ -148,7 +148,7 @@ export default function VerifRegister() {
             setSucessMessage("Inscription réussie ! Vous serez redirigé dans un instant...")
             setErrorMessage(null);
             setTimeout(() => {
-                window.location.href = 'http://localhost:3001';
+                window.location.href = 'http://localhost:3000';
 
             }, 2000);
         } catch (error) {

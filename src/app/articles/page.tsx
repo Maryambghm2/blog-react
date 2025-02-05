@@ -15,14 +15,12 @@ import React from 'react';
 //     title: " Articles  "
 // }
 
-
-
 // FONCTION PAGE PRINCIPAL 
 export default function Articles() {
     return (
         <>
             <header>
-                <a href='/articles'><Header /></a>
+                <a id='welcome' href='/articles'><Header /></a>
                 <LogOut />
             </header>
             <main>

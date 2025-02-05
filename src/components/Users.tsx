@@ -1,5 +1,3 @@
-import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
 
 export interface Users {
     id_user: number;
